@@ -110,7 +110,6 @@ li {
 }
 li > h1:hover {
 color: black;
-transition: 1s
 }
 
 ul#contact {
