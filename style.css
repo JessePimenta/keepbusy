@@ -105,6 +105,11 @@ img {
     position: absolute;
 }
 
+img:hover {
+  -webkit-filter: invert(100%);
+  transition: 2s;
+}
+
 li {
     list-style: none;
 }
