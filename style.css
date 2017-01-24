@@ -1,5 +1,6 @@
 
 * {
+  cursor: crosshair;
 }
 
 ul#CONTACT {
@@ -54,7 +55,7 @@ ul {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 30px;
   letter-spacing: 0.1em;
   color: #EEE;
   animation: rotate 2s ease-in-out alternate infinite;
@@ -99,7 +100,38 @@ h1:before {
   }
 }
 
+img {
+    width: 300px;
+    position: absolute;
+}
 
+li {
+    list-style: none;
+}
+li > h1:hover {
+color: black;
+transition: 1s
+}
+
+ul#contact {
+    margin-top: 600px;
+}
+
+#email {
+  color: white;
+}
+
+#artist-roster {
+  padding-left: 0px;
+  margin-top: 200px;
+}
+
+@media screen and (max-width:800px) {
+  #artist-roster {
+    padding-left: 0px;
+    margin-top: 300px;
+  }
+}
 
 /*rainbow*/
 .wrapper {
